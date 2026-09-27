@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- WaveTalk launcher foreground: amber microphone with signal arcs on transparent bg -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Signal arcs (left) -->
+    <path
+        android:pathData="M34,40 A22,22 0 0 0 34,68"
+        android:strokeColor="#FFB74A"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M26,32 A33,33 0 0 0 26,76"
+        android:strokeColor="#33FFB74A"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Signal arcs (right) -->
+    <path
+        android:pathData="M74,40 A22,22 0 0 1 74,68"
+        android:strokeColor="#FFB74A"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M82,32 A33,33 0 0 1 82,76"
+        android:strokeColor="#33FFB74A"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Microphone glyph (material mic path, scaled 2.25 and centered) -->
+    <group
+        android:translateX="27"
+        android:translateY="26"
+        android:scaleX="2.25"
+        android:scaleY="2.25">
+        <path
+            android:fillColor="#FFB74A"
+            android:pathData="M12,14c1.66,0 3,-1.34 3,-3V5c0,-1.66 -1.34,-3 -3,-3S9,3.34 9,5v6C9,12.66 10.34,14 12,14zM17,11c0,2.76 -2.24,5 -5,5s-5,-2.24 -5,-5H5c0,3.53 2.61,6.43 6,6.92V21h2v-3.08c3.39,-0.49 6,-3.39 6,-6.92H17z" />
+    </group>
+</vector>

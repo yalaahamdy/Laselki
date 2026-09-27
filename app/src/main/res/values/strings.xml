@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">WaveTalk</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">Talk over Wi-Fi — no internet needed</string>
+    <string name="onboarding_welcome_body">Turn your phone into a real walkie-talkie on your local Wi-Fi network. No accounts, no servers, no tracking.</string>
+    <string name="feature_discovery_title">Automatic discovery</string>
+    <string name="feature_discovery_body">Phones on the same Wi-Fi find each other instantly.</string>
+    <string name="feature_ptt_title">Push-to-Talk</string>
+    <string name="feature_ptt_body">Hold the big button to talk, release to listen.</string>
+    <string name="feature_privacy_title">Private by design</string>
+    <string name="feature_privacy_body">Audio never leaves your local network and is encrypted in transit.</string>
+    <string name="onboarding_name_title">What should we call you?</string>
+    <string name="onboarding_name_body">This name is shown to other devices on the network.</string>
+    <string name="onboarding_name_hint">Device name</string>
+    <string name="onboarding_permissions_title">Permissions</string>
+    <string name="onboarding_mic_title">Microphone</string>
+    <string name="onboarding_mic_body">Used only while you hold the Talk button. Nothing is recorded or stored.</string>
+    <string name="onboarding_notif_title">Notifications (optional)</string>
+    <string name="onboarding_notif_body">Keeps the connection ready in the background. You can skip this.</string>
+    <string name="btn_grant">Allow</string>
+    <string name="btn_granted">Allowed</string>
+    <string name="btn_skip">Skip</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_get_started">Start talking</string>
+
+    <!-- Status -->
+    <string name="status_connected">Connected</string>
+    <string name="status_no_wifi">No Wi-Fi</string>
+    <string name="status_searching">Searching for devices…</string>
+    <string name="status_no_devices">No devices found yet</string>
+    <string name="devices_online">%1$d devices online</string>
+    <string name="empty_devices_hint">Open WaveTalk on another phone connected to the same Wi-Fi.</string>
+    <string name="tap_device_hint">Tap a device to talk to it directly</string>
+
+    <!-- Channels -->
+    <string name="channel_label">Channel</string>
+    <string name="channel_default" translatable="false">Lobby</string>
+    <string name="channel_sheet_title">Channels</string>
+    <string name="channel_sheet_hint">Type a name to join or create</string>
+    <string name="btn_join">Join</string>
+    <string name="channel_note">Only devices on the same channel can hear each other.</string>
+    <string name="channel_active_here">Active here</string>
+
+    <!-- Talk states -->
+    <string name="talking_now">%1$s is talking…</string>
+    <string name="channel_busy">Channel busy — %1$s is talking</string>
+    <string name="you_are_talking">Transmitting…</string>
+    <string name="receiving_from">Receiving from %1$s</string>
+    <string name="ptt_idle">HOLD TO TALK</string>
+    <string name="ptt_talking">RELEASE TO LISTEN</string>
+    <string name="ptt_busy">CHANNEL BUSY</string>
+    <string name="ptt_no_mic">MICROPHONE OFF</string>
+    <string name="ptt_no_wifi">NO WI-FI</string>
+    <string name="scope_channel">Whole channel</string>
+    <string name="scope_device">Talking to: %1$s</string>
+    <string name="scope_clear_desc">Back to whole channel</string>
+
+    <!-- Devices -->
+    <string name="device_status_online">Online</string>
+    <string name="device_status_offline">Offline</string>
+    <string name="device_speaking">Speaking</string>
+    <string name="devices_title">Devices</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="setting_device_name">Device name</string>
+    <string name="btn_save">Save</string>
+    <string name="saved">Saved</string>
+    <string name="setting_theme">Theme</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="setting_vibration">Vibration feedback</string>
+    <string name="setting_sounds">Sound effects</string>
+    <string name="setting_background">Stay ready in background</string>
+    <string name="setting_background_desc">Keeps device discovery alive with a silent notification.</string>
+    <string name="setting_mic_gain">Microphone gain</string>
+    <string name="setting_about">About</string>
+    <string name="about_version">Version</string>
+    <string name="about_privacy_title">Privacy</string>
+    <string name="about_privacy_body">WaveTalk works only on your local Wi-Fi. No accounts, no analytics, no cloud, no stored audio.</string>
+    <string name="about_how_title">How it works</string>
+    <string name="about_how_body">Devices announce themselves over the local network and stream live audio to each other over an encrypted direct connection.</string>
+
+    <!-- Errors & notifications -->
+    <string name="error_mic_denied">Microphone permission is required to talk</string>
+    <string name="error_no_wifi">Connect to a Wi-Fi network to start</string>
+    <string name="error_bind">Could not open network ports. Is another copy of the app running?</string>
+    <string name="error_send_failed">Could not reach %1$s</string>
+    <string name="error_channel_rejected">Device is on a different channel</string>
+    <string name="notif_channel_name">Background readiness</string>
+    <string name="notif_title">WaveTalk is ready</string>
+    <string name="notif_text">Listening for devices on Wi-Fi</string>
+    <string name="notif_action_stop">Stop</string>
+    <string name="nav_back">Back</string>
+    <string name="mic_gain_percent">%1$d%%</string>
+</resources>

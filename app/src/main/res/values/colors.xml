@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light values (default); night overrides live in values-night -->
+    <color name="brand_background">#FAF8F3</color>
+    <color name="brand_accent">#B87A00</color>
+    <color name="launcher_background">#101720</color>
+</resources>

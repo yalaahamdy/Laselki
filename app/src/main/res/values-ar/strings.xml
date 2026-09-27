@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboarding_welcome_title">تحدّث عبر الواي فاي — بدون إنترنت</string>
+    <string name="onboarding_welcome_body">حوّل هاتفك إلى جهاز لاسلكي حقيقي داخل شبكة الواي فاي المحلية. بدون حسابات، بدون خوادم، بدون تتبّع.</string>
+    <string name="feature_discovery_title">اكتشاف تلقائي</string>
+    <string name="feature_discovery_body">الهواتف المتصلة بنفس الشبكة تجد بعضها فوراً.</string>
+    <string name="feature_ptt_title">اضغط للتحدث</string>
+    <string name="feature_ptt_body">اضغط باستمرار على الزر الكبير للتحدث، واتركه لتستمع.</string>
+    <string name="feature_privacy_title">خصوصية أولاً</string>
+    <string name="feature_privacy_body">الصوت لا يخرج من شبكتك المحلية أبداً، ويُشفَّر أثناء النقل.</string>
+    <string name="onboarding_name_title">ماذا نناديك؟</string>
+    <string name="onboarding_name_body">هذا الاسم سيظهر للأجهزة الأخرى على الشبكة.</string>
+    <string name="onboarding_name_hint">اسم الجهاز</string>
+    <string name="onboarding_permissions_title">الصلاحيات</string>
+    <string name="onboarding_mic_title">الميكروفون</string>
+    <string name="onboarding_mic_body">يُستخدم فقط أثناء الضغط على زر التحدث. لا يُسجَّل ولا يُخزَّن أي صوت.</string>
+    <string name="onboarding_notif_title">الإشعارات (اختياري)</string>
+    <string name="onboarding_notif_body">تُبقي الاتصال جاهزاً في الخلفية. يمكنك تخطي هذا.</string>
+    <string name="btn_grant">السماح</string>
+    <string name="btn_granted">مسموح</string>
+    <string name="btn_skip">تخطي</string>
+    <string name="btn_next">التالي</string>
+    <string name="btn_get_started">ابدأ التحدث</string>
+
+    <string name="status_connected">متصل</string>
+    <string name="status_no_wifi">لا يوجد واي فاي</string>
+    <string name="status_searching">جارٍ البحث عن الأجهزة…</string>
+    <string name="status_no_devices">لم يتم العثور على أجهزة بعد</string>
+    <string name="devices_online">%1$d أجهزة متصلة</string>
+    <string name="empty_devices_hint">افتح التطبيق على هاتف آخر متصل بنفس شبكة الواي فاي.</string>
+    <string name="tap_device_hint">اضغط على جهاز للتحدث معه مباشرة</string>
+
+    <string name="channel_label">القناة</string>
+    <string name="channel_sheet_title">القنوات</string>
+    <string name="channel_sheet_hint">اكتب اسم قناة للانضمام أو الإنشاء</string>
+    <string name="btn_join">انضمام</string>
+    <string name="channel_note">الأجهزة على نفس القناة فقط هي التي تسمع بعضها.</string>
+    <string name="channel_active_here">نشطة هنا</string>
+
+    <string name="talking_now">%1$s يتحدث الآن…</string>
+    <string name="channel_busy">القناة مشغولة — %1$s يتحدث</string>
+    <string name="you_are_talking">جارٍ الإرسال…</string>
+    <string name="receiving_from">استقبال من %1$s</string>
+    <string name="ptt_idle">اضغط باستمرار للتحدث</string>
+    <string name="ptt_talking">اترك الزر للاستماع</string>
+    <string name="ptt_busy">القناة مشغولة</string>
+    <string name="ptt_no_mic">الميكروفون مغلق</string>
+    <string name="ptt_no_wifi">لا يوجد واي فاي</string>
+    <string name="scope_channel">القناة كاملة</string>
+    <string name="scope_device">التحدث مع: %1$s</string>
+    <string name="scope_clear_desc">العودة للقناة كاملة</string>
+
+    <string name="device_status_online">متصل</string>
+    <string name="device_status_offline">غير متصل</string>
+    <string name="device_speaking">يتحدث</string>
+    <string name="devices_title">الأجهزة</string>
+
+    <string name="settings_title">الإعدادات</string>
+    <string name="setting_device_name">اسم الجهاز</string>
+    <string name="btn_save">حفظ</string>
+    <string name="saved">تم الحفظ</string>
+    <string name="setting_theme">المظهر</string>
+    <string name="theme_system">النظام</string>
+    <string name="theme_light">فاتح</string>
+    <string name="theme_dark">داكن</string>
+    <string name="setting_vibration">الاهتزاز عند الضغط</string>
+    <string name="setting_sounds">المؤثرات الصوتية</string>
+    <string name="setting_background">البقاء جاهزاً في الخلفية</string>
+    <string name="setting_background_desc">يُبقي اكتشاف الأجهزة حياً عبر إشعار صامت.</string>
+    <string name="setting_mic_gain">حساسية الميكروفون</string>
+    <string name="setting_about">حول التطبيق</string>
+    <string name="about_version">الإصدار</string>
+    <string name="about_privacy_title">الخصوصية</string>
+    <string name="about_privacy_body">يعمل التطبيق داخل شبكة الواي فاي المحلية فقط. بدون حسابات، بدون تحليلات، بدون سحابة، وبدون تخزين صوت.</string>
+    <string name="about_how_title">كيف يعمل؟</string>
+    <string name="about_how_body">تعلن الأجهزة عن نفسها عبر الشبكة المحلية، ويُبثّ الصوت مباشرة بينها عبر اتصال مشفّر.</string>
+
+    <string name="error_mic_denied">صلاحية الميكروفون مطلوبة للتحدث</string>
+    <string name="error_no_wifi">اتصل بشبكة واي فاي للبدء</string>
+    <string name="error_bind">تعذر فتح منافذ الشبكة. هل يعمل نسخة أخرى من التطبيق؟</string>
+    <string name="error_send_failed">تعذر الوصول إلى %1$s</string>
+    <string name="error_channel_rejected">الجهاز على قناة مختلفة</string>
+    <string name="notif_channel_name">الجاهزية في الخلفية</string>
+    <string name="notif_title">التطبيق جاهز</string>
+    <string name="notif_text">يستمع للأجهزة عبر الواي فاي</string>
+    <string name="notif_action_stop">إيقاف</string>
+    <string name="nav_back">رجوع</string>
+    <string name="mic_gain_percent">%1$d%%</string>
+</resources>
