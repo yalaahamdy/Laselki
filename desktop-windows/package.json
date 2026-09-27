@@ -1,0 +1,49 @@
+{
+  "name": "walkie-talkie-desktop",
+  "productName": "لاسِلكي",
+  "version": "1.0.0",
+  "private": true,
+  "description": "لاسِلكي — اتصال صوتي فوري عبر Wi-Fi المحلي (تطبيق ويندوز)",
+  "main": "main.js",
+  "author": "Laselki",
+  "license": "MIT",
+  "scripts": {
+    "bundle:signaling": "node bundle-signaling.mjs",
+    "start": "electron .",
+    "dist": "electron-builder --win nsis portable"
+  },
+  "devDependencies": {
+    "electron": "^33.2.0",
+    "electron-builder": "^25.1.8",
+    "esbuild": "^0.24.2"
+  },
+  "build": {
+    "appId": "app.laselki.desktop",
+    "productName": "لاسِلكي",
+    "directories": {
+      "output": "dist",
+      "buildResources": "resources"
+    },
+    "files": [
+      "main.js",
+      "resources/**",
+      "server/**"
+    ],
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ],
+      "icon": "resources/icon.png"
+    },
+    "nsis": {
+      "oneClick": true,
+      "perMachine": false,
+      "deleteAppDataOnUninstall": false,
+      "shortcutName": "لاسِلكي"
+    },
+    "portable": {
+      "artifactName": "لاسِلكي-Portable.exe"
+    }
+  }
+}
